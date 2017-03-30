@@ -1,0 +1,31 @@
+ <!DOCTYPE html>
+ <!-- 上面是H5文档声明 -->
+ <html>
+ <head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="styles/app.css">
+	<title>App</title>
+ </head>
+ <body>
+ <!-- 主体内容区域 -->
+<h1>测试内容</h1>
+<p>一段内容</p>
+<p><span style="font-size:15px;color:blue">悠然自得，闲情逸致</span></p>
+<p>马放南山，闲庭信步</p>
+<p>这是新的内容</p>
+<p id="result"></p>
+<p><input id="btn" type="button" value="点我"></p>
+<script>
+	var btn = document.getElementById("btn");
+	btn.onclick = function(){
+		console.log("点击了");
+	}
+
+	;(function(){
+		console.log(456);
+	})();
+	+function(){console.log("Tester!!")}();
+</script>
+<script src="scripts/all.js"></script>
+ </body>
+ </html>
